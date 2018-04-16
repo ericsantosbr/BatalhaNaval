@@ -10,9 +10,9 @@ O uso de seu código é livre desde que sejam dados os devidos créditos ao seu 
 public class Navio{
 	private String nome;
 	private int x, y, tipo;
-	private Boolean hit;
+	private Boolean hit = false;
 	public Navio(String nome, int x, int y, int tipo){
-		System.out.println("Adicionado");
+		// System.out.println("Adicionado");
 		this.nome = nome;
 		this.x = x;
 		this.y = y;
