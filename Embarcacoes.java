@@ -7,8 +7,8 @@ O uso de seu código é livre desde que sejam dados os devidos créditos ao seu 
 
 */
 
-public class BatalhaNaval{
-	public static void main(String[] args){
-		Campo campo = new Campo();
-	}
+public enum Embarcacoes{
+	CRUZADOR("cruzador"),
+	
+	
 }
